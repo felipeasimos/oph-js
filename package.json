@@ -1,6 +1,6 @@
 {
   "name": "@felipeasimos/oph",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "server-on-client made easy with Rust. Complement for the 'oph' Rust crate",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
