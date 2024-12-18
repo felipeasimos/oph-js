@@ -1,0 +1,34 @@
+{
+  "name": "@felipeasimos/oph",
+  "version": "1.0.0",
+  "description": "server-on-client made easy with Rust. Complement for the 'oph' Rust crate",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeasimos/oph-js.git"
+  },
+  "keywords": [
+    "server-on-client",
+    "typescript",
+    "rust",
+    "wasm"
+  ],
+  "author": "felipeasimos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipeasimos/oph-js/issues"
+  },
+  "homepage": "https://github.com/felipeasimos/oph-js#readme",
+  "devDependencies": {
+    "@types/serviceworker": "^0.0.107",
+    "typescript": "^5.7.2"
+  }
+}
